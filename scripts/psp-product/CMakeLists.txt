@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.22)
+project(emuorbit_psp_android LANGUAGES CXX)
+if(NOT ANDROID OR NOT ANDROID_ABI STREQUAL "arm64-v8a")
+    message(FATAL_ERROR "PSP Android adapter requires ARM64")
+endif()
+if(NOT EXISTS "${PPSSPP_SOURCE}/libretro/libretro-common/include/libretro.h")
+    message(FATAL_ERROR "Use the verified pinned PPSSPP source")
+endif()
+get_filename_component(EMUORBIT_ROOT "${CMAKE_CURRENT_SOURCE_DIR}/../.." ABSOLUTE)
+add_library(emuorbit_psp_session SHARED
+    "${EMUORBIT_ROOT}/app/src/main/cpp/psp/psp_session.cpp"
+    "${EMUORBIT_ROOT}/app/src/main/cpp/psp/psp_jni.cpp")
+target_include_directories(emuorbit_psp_session PRIVATE "${PPSSPP_SOURCE}/libretro/libretro-common/include")
+target_compile_features(emuorbit_psp_session PRIVATE cxx_std_17)
+target_compile_options(emuorbit_psp_session PRIVATE -Wall -Wextra -Werror -fvisibility=hidden -fstack-protector-strong)
+target_link_options(emuorbit_psp_session PRIVATE -Wl,-z,max-page-size=16384 -Wl,-z,relro,-z,now -Wl,--no-undefined)
+target_link_libraries(emuorbit_psp_session PRIVATE android EGL GLESv3 dl log)

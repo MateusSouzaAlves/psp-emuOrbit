@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+/.venv/
+/native-cache*/
+/component-output*/
+*.so
+*.apk
+*.aab
+*.apks
+*.keystore
+*.jks
+local.properties

@@ -1,0 +1,116 @@
+{
+  "schema": 1,
+  "scope": "COMPONENT_SOURCE_NOT_PUBLICATION_OR_COMBINED_WORK_CERTIFICATE",
+  "upstream_repository": "https://github.com/hrydgard/ppsspp.git",
+  "upstream_commit": "fa50bb1976065c4f8b1b47af227d367fe9771555",
+  "submodule_pins": [
+    "-c387d93ab5910b5a6be78b4840a5bbbc452f3ac8 SDL/macOS",
+    " 9776332f720c854ef26f325a0cf9e32c02115a9c assets/debugger (9776332)",
+    " be392bf6949adeeabad5082aa79d12aacbda781f ext/OpenXR-SDK (be392bf)",
+    " 4212eef67ed0ca048cb726a6767185504e7695e5 ext/SPIRV-Cross (4212eef)",
+    " 530fee545c27ffb8524a8f496cbbcfdb687fe8c5 ext/aemu_postoffice (530fee5)",
+    " a8d71f0f279eb0d30ecf6af51473b66ae0cf8e8d ext/armips (a8d71f0)",
+    " 3f1c185ab414e764c694b8171d1c4d8c5c437517 ext/armips/ext/filesystem (heads/master)",
+    " fd4ffc1632db7b4e763bd28ffa6fc9d761cf3587 ext/cpu_features (fd4ffc1)",
+    "-963aa9f3e5ce81a4682c6ca3d136cddda614db33 ext/discord-rpc",
+    " 063ed27f481f0bcd3962fd468e1546739d7d285a ext/freetype (heads/master)",
+    "-395ccad2c1e0daae535c4d20bb0a3f2424648e17 ext/freetype/subprojects/dlg",
+    " 50e0708ec3a5c16020c4f845c654b80b8edb80bd ext/glslang (50e0708)",
+    " 8fae8ce254dfc1344527e05301e43f37dea2df80 ext/libadrenotools (heads/master)",
+    " aa3975893d83ef1bc84c321ec60c65fbf1287887 ext/libadrenotools/lib/linkernsbypass (heads/master)",
+    " 8bba7745d758627258b315997a860039244cedaf ext/libchdr (8bba774)",
+    " 7648485f14e8e5ee45e8e39b1eb4d3206dbd405a ext/lua (7648485)",
+    " 27d13ca9beeb5541f5fbf11959dced03dac39972 ext/miniupnp (27d13ca)",
+    " 5f695cfa9fcbf30668a4d3ac4b4abf1cd89a1302 ext/naett (v0.3.3)",
+    " 478dbb8f7ed11c3d9b20b3986a8ee2283f483ef7 ext/nanosvg (478dbb8)",
+    " 73063f5002612c6bf64fe24f851cd5cc0d83eef9 ext/rapidjson (73063f5)",
+    "-0a439623f75c029912728d80cb7f1b8b48739ca4 ext/rapidjson/thirdparty/gtest",
+    " ebfe8ca1bf944358e27200d66964fcb4e00e2487 ext/rcheevos (ebfe8ca)",
+    " f8745da6ff1ad1e7bab384bd1f9d742439278e99 ext/zstd (f8745da)",
+    " 1e3b4965632f60b1d85360261d1b9dd45444bc71 ffmpeg (1e3b496)",
+    "-cbe88474ec196370161032a3863ec65050f70ba4 ffmpeg/gas-preprocessor",
+    "-0bf904d2d1d159eb95bdefcd8432eee79ee1da14 ios/MoltenVK",
+    " 76a3d54feb0ee0ce9d59b90aa24694f3782063d3 libretro/libretro-common (76a3d54)",
+    "-4374348477b425f48f99c8fd58a853c439f78acd pspautotests"
+  ],
+  "upstream_included": false,
+  "uninitialized_local_modules": [
+    "-c387d93ab5910b5a6be78b4840a5bbbc452f3ac8 SDL/macOS",
+    "-963aa9f3e5ce81a4682c6ca3d136cddda614db33 ext/discord-rpc",
+    "-395ccad2c1e0daae535c4d20bb0a3f2424648e17 ext/freetype/subprojects/dlg",
+    "-0a439623f75c029912728d80cb7f1b8b48739ca4 ext/rapidjson/thirdparty/gtest",
+    "-cbe88474ec196370161032a3863ec65050f70ba4 ffmpeg/gas-preprocessor",
+    "-0bf904d2d1d159eb95bdefcd8432eee79ee1da14 ios/MoltenVK",
+    "-4374348477b425f48f99c8fd58a853c439f78acd pspautotests"
+  ],
+  "core_adaptations": [
+    {
+      "id": "gles-depth-clamp-clip-distance-1",
+      "upstream_file": "GPU/GLES/ShaderManagerGLES.cpp",
+      "upstream_sha256": "1c99dc56a43a16b8ddbc6192e0f130d7bdfbb8c6407d8366d92297ac351c7281",
+      "derived_sha256": "ac8d2516f3132444e8f2533359eea2da42bd4401c07183d123642fa5c7aed14b",
+      "change": "Require actual clip-distance support for the depth-clamp program flag, matching the unchanged shader generator."
+    }
+  ],
+  "files": [
+    {
+      "path": "config/psp-core.proof.json",
+      "sha256": "fef1bcbe118d89edd0e3eab2b3e69e3eb5d6612f2a2bb3cfe4fee5b9bfda41c0"
+    },
+    {
+      "path": "scripts/psp-product/build_product.py",
+      "sha256": "1024a1872638cada201fd6942fa5ff504d48ab513f65a365dca3a1825809f783"
+    },
+    {
+      "path": "scripts/psp-product/native_payload.py",
+      "sha256": "455680e8f92e8422522a09310d4c5caf12fac16638f2242ea754d09d75b7fed7"
+    },
+    {
+      "path": "scripts/psp-product/stage_assets.py",
+      "sha256": "c02da778021fb2260cc1ccf362b2e83b74a7d53805136ae5bb1ba2e19d25cc54"
+    },
+    {
+      "path": "scripts/psp-product/stage_notices.py",
+      "sha256": "5410b63790e2bbb9b9e08373fead5d5d65feff5f28bffe7a268aa969905b18e9"
+    },
+    {
+      "path": "scripts/psp-product/CMakeLists.txt",
+      "sha256": "aaa9555c1446b76aa443fe99139732001f3e8d678dcb964170269c6c43c224be"
+    },
+    {
+      "path": "scripts/psp-product/core_gl_compat.py",
+      "sha256": "517aa8cd5a2f4adcc7dc325d5349d88461b915e717733cc186634e9d3b4e2ee9"
+    },
+    {
+      "path": "scripts/psp-product/core_gl_compat.cmake",
+      "sha256": "f8e0a685ed5684be739f5c8b2fd17aa00560e27aebdcc8593abf5d043432a5b3"
+    },
+    {
+      "path": "app/src/main/cpp/psp/psp_jni.cpp",
+      "sha256": "24dd281418f70740d911536ba4dfd362880c575c5c2b8483723d7b25278b7c2c"
+    },
+    {
+      "path": "app/src/main/cpp/psp/psp_session.cpp",
+      "sha256": "50f1e0f8213c414bda83329392ca4638c73bbd95a5203f99a23aa4feabb2cac8"
+    },
+    {
+      "path": "app/src/main/cpp/psp/psp_session.h",
+      "sha256": "a8530fc4a44f7aa44ca5fd736a89d728a38b27b26071ab087de4bf211bbf6ce8"
+    },
+    {
+      "path": "app/src/main/java/com/mateussouza/emuorbit/advance/emulator/psp/PspNativeBridge.java",
+      "sha256": "097fb8cb3311a59a51f4ee9664fc3f116f9e448591d314bd1fa3a1682a553f20"
+    },
+    {
+      "path": "LICENSE.TXT",
+      "sha256": "6c17a34fd9e0219be8bf9d979ce597b289e0695b1fb2b574fadf092b49316ce6"
+    }
+  ],
+  "requires": [
+    "Python 3",
+    "Git",
+    "CMake 3.22.1",
+    "Android NDK 29.0.14206865"
+  ],
+  "limits": "No private frontend, product art, media, states, credentials or binaries. Fetch exact upstream recursively. Publication destination, corresponding-source parity and obligations of the combined app remain separate gates."
+}
