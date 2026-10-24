@@ -10,3 +10,15 @@ __pycache__/
 *.keystore
 *.jks
 local.properties
+
+# Local source qualification output and private material
+/.local/
+/out/
+/build/
+/dist/
+/__pycache__/
+*.pyc
+*.keystore
+*.jks
+*.aab
+*.apk

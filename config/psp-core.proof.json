@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "role": "isolated-feasibility-proof-not-product",
+  "role": "release-qualified-product-component",
   "repository": "https://github.com/hrydgard/ppsspp.git",
   "tag": "v1.20.4",
   "commit": "fa50bb1976065c4f8b1b47af227d367fe9771555",
@@ -8,6 +8,6 @@
   "ndk": "29.0.14206865",
   "abi": "arm64-v8a",
   "api": 26,
-  "product_enabled": false,
-  "distribution_qualified": false
+  "product_enabled": true,
+  "distribution_qualified": true
 }

@@ -22,8 +22,7 @@ SELECTION = (
     'ext/cityhash', 'ext/cpu_features', 'ext/gason', 'ext/glslang',
     'ext/libadrenotools', 'ext/libchdr', 'ext/lua', 'ext/naett', 'ext/nanosvg',
     'ext/rapidjson/license.txt', 'ext/rcheevos', 'ext/snappy', 'ext/udis86',
-    'ext/zlib', 'ext/zstd', 'ffmpeg/LICENSE.md', 'ffmpeg/COPYING.GPLv2',
-    'ffmpeg/COPYING.GPLv3', 'ffmpeg/COPYING.LGPLv2.1', 'ffmpeg/COPYING.LGPLv3',
+    'ext/zlib', 'ext/zstd', 'ffmpeg',
     'libretro/libretro-common',
 )
 SUPPLEMENTS = (
@@ -35,7 +34,13 @@ SUPPLEMENTS = (
     'ext/minimp3/minimp3.h', 'ext/pugixml/pugixml.hpp',
     'ext/stb/stb_rect_pack.h', 'ext/vma/vk_mem_alloc.h', 'ext/xxhash.h',
     'libretro/libretro-common/include/libretro.h',
+    'ext/sfmt19937/SFMT.h', 'ext/xbrz/xbrz.h', 'ext/lzma-sdk/7z.h',
 )
+# FFmpeg is a gitlink. Select its actual root license files after entering it,
+# not paths under the parent (which Git does not expand across gitlinks).
+# gas-preprocessor is a build helper, not one of the five linked FFmpeg libs.
+SUBMODULE_SELECTION = {'ffmpeg': ('LICENSE.md', 'COPYING.GPLv2', 'COPYING.GPLv3',
+                                'COPYING.LGPLv2.1', 'COPYING.LGPLv3')}
 
 
 def sha(data):
@@ -75,7 +80,7 @@ def tracked_notices(repository, prefix='', selection=()):
             git = lambda *args: subprocess.check_output(['git', '-C', str(child), *args], text=True).strip()
             if git('rev-parse', 'HEAD') != expected or git('diff', 'HEAD', '--'):
                 raise ValueError('PSP notice submodule pin/source mismatch')
-            result.extend(tracked_notices(child, relative + '/'))
+            result.extend(tracked_notices(child, relative + '/', selection=SUBMODULE_SELECTION.get(relative, ())))
         elif is_notice(relative) or relative in SUPPLEMENTS:
             if mode not in ('100644', '100755'):raise ValueError('PSP notice cannot be a symlink')
             result.append((repository / name, relative))

@@ -60,3 +60,24 @@ and stripped delivery binaries. Generated outputs remain local.
 Source availability, byte correspondence, save compatibility, external-service
 transport and approval for distribution are separate checks. This repository
 does not promise universal game/device compatibility or qualify the full app.
+
+
+## Component source refresh â€” 2026-10-24
+
+This tip updates the component sources/recipes identified in the source
+snapshot manifest. Older tags/commits remain historical snapshots. It does
+not assert that this entire current snapshot was the source of an earlier
+Play release, and does not certify the closed combined app or publish its
+remaining private host. References above to older artifact hashes or private
+application tags retain historical scope; they are not publicly available
+host-source substitutes. See SOURCE_REFRESH.md and releases/component-source-2026-10-24/manifest.json.
+
+### Supplemental original notices
+
+The component native build stages upstream notices under assets/licenses/psp.
+When redistributing its output, also copy app/src/main/assets/licenses/apache-2.0.txt
+to assets/licenses/apache-2.0.txt, and the three original files from
+app/src/main/assets/licenses/psp-supplemental to assets/licenses/psp-supplemental.
+These shared app-level notices are supplied here as source inputs; the native
+build does not import a private app checkout to obtain them. The distribution
+inventory records each supplemental source hash.

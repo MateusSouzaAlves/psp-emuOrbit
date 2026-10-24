@@ -15,6 +15,7 @@ from native_payload import allocated, sha, verify_worker_abi
 from core_gl_compat import prepare as prepare_gl_compat, contract as gl_compat_contract
 from stage_assets import stage as stage_assets
 from stage_notices import stage as stage_notices, verify as verify_notices
+from distribution_inventory import build_record as inventory_record
 
 ROOT = Path(__file__).resolve().parents[2]
 
@@ -24,9 +25,9 @@ def run(args):
 
 
 def input_hashes():
-    files = [ROOT / 'config/psp-core.proof.json', *sorted((ROOT / 'app/src/main/cpp/psp').glob('*')),
+    files = [ROOT / 'config/psp-core.proof.json', ROOT / 'config/psp-distribution-inventory.json', *sorted((ROOT / 'app/src/main/cpp/psp').glob('*')),
              *(ROOT / 'scripts/psp-product' / name for name in
-               ('CMakeLists.txt', 'build_product.py', 'stage_assets.py', 'stage_notices.py', 'native_payload.py', 'core_gl_compat.py', 'core_gl_compat.cmake'))]
+               ('CMakeLists.txt', 'build_product.py', 'stage_assets.py', 'stage_notices.py', 'distribution_inventory.py', 'native_payload.py', 'core_gl_compat.py', 'core_gl_compat.cmake'))]
     return {path.relative_to(ROOT).as_posix(): sha(path) for path in files if path.is_file()}
 
 
@@ -134,6 +135,7 @@ def build(args):
     run([cmake, '--build', cache / 'core', '--target', 'ppsspp_libretro', '-j', args.jobs])
     run([cmake, '-S', ROOT / 'scripts/psp-product', '-B', cache / 'adapter', *common, '-DPPSSPP_SOURCE=' + str(source)])
     run([cmake, '--build', cache / 'adapter', '-j', args.jobs])
+    inventory = inventory_record(cache)
     # Verify source/adapter inputs again after the build before publishing.
     if inputs != input_hashes() or subprocess.check_output(['git', '-C', str(source), 'diff', 'HEAD', '--']):
         raise ValueError('PSP build inputs changed during compilation')
@@ -157,7 +159,7 @@ def build(args):
     notices = stage_notices(source, output / 'assets/licenses/psp')
     receipt = {'schema': 1, 'scope': 'COMPONENT_BUILD_NOT_PRODUCT_QUALIFICATION', 'commit': revision,
                'abi': pin['abi'], 'api': pin['api'], 'ndk': pin['ndk'], 'sources': inputs,
-               'binaries': binaries, 'assets': assets, 'notices': notices, 'core_adaptations': [compatibility], 'distribution_qualified': False}
+               'binaries': binaries, 'assets': assets, 'notices': notices, 'inventory': inventory, 'core_adaptations': [compatibility], 'distribution_qualified': False}
     temporary = output / ('product-build-' + uuid.uuid4().hex + '.tmp')
     temporary.write_text(json.dumps(receipt, indent=2) + '\n', encoding='utf-8')
     os.replace(temporary, output / 'product-build.json')

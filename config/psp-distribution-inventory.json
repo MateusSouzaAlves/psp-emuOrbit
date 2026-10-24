@@ -1,0 +1,1352 @@
+{
+  "schema": 1,
+  "scope": "NR-14/R3 and NR-15/R4 incremental distribution inventory; not a legal opinion, whole-app SBOM or a requalification of unrelated historical components",
+  "psp_pin": "fa50bb1976065c4f8b1b47af227d367fe9771555",
+  "components": [
+    {
+      "id": "ppsspp",
+      "archives": [
+        "libCore.a",
+        "libnative.a",
+        "libCommon.a"
+      ],
+      "license": "GPL-2.0-or-later; PSPSDK BSD notices",
+      "notices": [
+        "upstream/LICENSE.TXT"
+      ]
+    },
+    {
+      "id": "snappy",
+      "archives": [
+        "libsnappy.a"
+      ],
+      "license": "BSD-3-Clause",
+      "notices": [
+        "upstream/ext/snappy/COPYING"
+      ]
+    },
+    {
+      "id": "cpu-features",
+      "archives": [
+        "libcpu_features.a"
+      ],
+      "license": "Apache-2.0",
+      "notices": [
+        "upstream/ext/cpu_features/LICENSE"
+      ]
+    },
+    {
+      "id": "adrenotools",
+      "archives": [
+        "libadrenotools.a",
+        "liblinkernsbypass.a"
+      ],
+      "license": "BSD-2-Clause",
+      "notices": [
+        "upstream/ext/libadrenotools/LICENSE",
+        "upstream/ext/libadrenotools/lib/linkernsbypass/LICENSE"
+      ]
+    },
+    {
+      "id": "libzip",
+      "archives": [
+        "liblibzip.a"
+      ],
+      "license": "BSD-3-Clause",
+      "notices": [
+        "upstream/ext/libzip/zip.h"
+      ]
+    },
+    {
+      "id": "lzma-sdk",
+      "archives": [
+        "lib7zip.a"
+      ],
+      "license": "LicenseRef-Public-domain-Igor-Pavlov",
+      "notices": [
+        "upstream/ext/lzma-sdk/7z.h"
+      ]
+    },
+    {
+      "id": "libpng",
+      "archives": [
+        "libpng17.a"
+      ],
+      "license": "Libpng",
+      "notices": [
+        "upstream/ext/libpng17/png.h"
+      ]
+    },
+    {
+      "id": "basis-universal",
+      "archives": [
+        "libbasis_universal.a"
+      ],
+      "license": "Apache-2.0",
+      "notices": [
+        "upstream/ext/basis_universal/basisu.h",
+        "../apache-2.0.txt"
+      ]
+    },
+    {
+      "id": "pugixml",
+      "archives": [
+        "libpugixml.a"
+      ],
+      "license": "MIT",
+      "notices": [
+        "upstream/ext/pugixml/pugixml.hpp"
+      ]
+    },
+    {
+      "id": "vma",
+      "archives": [
+        "libvma.a"
+      ],
+      "license": "MIT",
+      "notices": [
+        "upstream/ext/vma/vk_mem_alloc.h"
+      ]
+    },
+    {
+      "id": "gason",
+      "archives": [
+        "libgason.a"
+      ],
+      "license": "MIT",
+      "notices": [
+        "upstream/ext/gason/LICENSE"
+      ]
+    },
+    {
+      "id": "udis86",
+      "archives": [
+        "libudis86.a"
+      ],
+      "license": "BSD-2-Clause",
+      "notices": [
+        "upstream/ext/udis86/LICENSE"
+      ]
+    },
+    {
+      "id": "libchdr",
+      "archives": [
+        "libchdr.a"
+      ],
+      "license": "BSD-3-Clause; per-file embedded codecs",
+      "notices": [
+        "upstream/ext/libchdr/LICENSE.txt",
+        "upstream/ext/libchdr/deps/lzma-24.05/LICENSE",
+        "upstream/ext/libchdr/deps/zlib-1.3.1/LICENSE",
+        "upstream/ext/libchdr/deps/zstd-1.5.6/LICENSE"
+      ]
+    },
+    {
+      "id": "libkirk",
+      "archives": [
+        "libkirk.a"
+      ],
+      "license": "Per-file BSD and public-domain notices",
+      "notices": [
+        "upstream/ext/libkirk/AES.c",
+        "upstream/ext/libkirk/SHA1.c",
+        "upstream/ext/libkirk/amctrl.c",
+        "upstream/ext/libkirk/kirk_engine.c"
+      ]
+    },
+    {
+      "id": "cityhash",
+      "archives": [
+        "libcityhash.a"
+      ],
+      "license": "MIT",
+      "notices": [
+        "upstream/ext/cityhash/COPYING"
+      ]
+    },
+    {
+      "id": "sfmt",
+      "archives": [
+        "libsfmt19937.a"
+      ],
+      "license": "BSD-3-Clause",
+      "notices": [
+        "upstream/ext/sfmt19937/SFMT.h",
+        "../psp-supplemental/sfmt.txt"
+      ]
+    },
+    {
+      "id": "xbrz",
+      "archives": [
+        "libxbrz.a"
+      ],
+      "license": "GPL with MAME linking exception in original header",
+      "notices": [
+        "upstream/ext/xbrz/xbrz.h",
+        "upstream/LICENSE.TXT"
+      ]
+    },
+    {
+      "id": "xxhash",
+      "archives": [
+        "libxxhash.a"
+      ],
+      "license": "BSD-2-Clause",
+      "notices": [
+        "upstream/ext/xxhash.h"
+      ]
+    },
+    {
+      "id": "rcheevos",
+      "archives": [
+        "librcheevos.a"
+      ],
+      "license": "MIT",
+      "notices": [
+        "upstream/ext/rcheevos/LICENSE"
+      ]
+    },
+    {
+      "id": "minimp3",
+      "archives": [
+        "libminimp3.a"
+      ],
+      "license": "CC0-1.0",
+      "notices": [
+        "upstream/ext/minimp3/minimp3.h"
+      ]
+    },
+    {
+      "id": "atrac-standalone",
+      "archives": [
+        "libat3_standalone.a"
+      ],
+      "license": "LGPL-2.1-or-later; per-file terms",
+      "notices": [
+        "upstream/ext/at3_standalone/atrac3.cpp",
+        "upstream/ext/at3_standalone/atrac3plus.cpp",
+        "upstream/ffmpeg/COPYING.LGPLv2.1"
+      ]
+    },
+    {
+      "id": "lua",
+      "archives": [
+        "liblua.a"
+      ],
+      "license": "MIT",
+      "notices": [
+        "upstream/ext/lua/lua.h"
+      ]
+    },
+    {
+      "id": "glslang",
+      "archives": [
+        "libglslang.a",
+        "libSPIRV.a",
+        "libMachineIndependent.a",
+        "libOGLCompiler.a",
+        "libOSDependent.a",
+        "libGenericCodeGen.a"
+      ],
+      "license": "Mixed permissive licenses in original notice",
+      "notices": [
+        "upstream/ext/glslang/LICENSE.txt"
+      ]
+    },
+    {
+      "id": "spirv-cross",
+      "archives": [
+        "libspirv-cross-glsl.a",
+        "libspirv-cross-core.a"
+      ],
+      "license": "Apache-2.0 OR MIT; per-file terms",
+      "notices": [
+        "upstream/ext/SPIRV-Cross/LICENSE",
+        "upstream/ext/SPIRV-Cross/LICENSES/Apache-2.0.txt",
+        "upstream/ext/SPIRV-Cross/LICENSES/MIT.txt"
+      ]
+    },
+    {
+      "id": "armips",
+      "archives": [
+        "libarmips.a"
+      ],
+      "license": "MIT; bundled filesystem notice",
+      "notices": [
+        "upstream/ext/armips/LICENSE.txt",
+        "upstream/ext/armips/ext/filesystem/LICENSE"
+      ]
+    },
+    {
+      "id": "zstd",
+      "archives": [
+        "liblibzstd_static.a"
+      ],
+      "license": "BSD-3-Clause OR GPL-2.0",
+      "notices": [
+        "upstream/ext/zstd/LICENSE",
+        "upstream/ext/zstd/COPYING"
+      ]
+    },
+    {
+      "id": "naett",
+      "archives": [
+        "libnaett.a"
+      ],
+      "license": "MIT",
+      "notices": [
+        "upstream/ext/naett/LICENSE"
+      ]
+    },
+    {
+      "id": "ffmpeg",
+      "archives": [
+        "libavformat.a",
+        "libavcodec.a",
+        "libswresample.a",
+        "libswscale.a",
+        "libavutil.a"
+      ],
+      "license": "LGPL-2.1-or-later; GPL optional configuration retained without assumption",
+      "notices": [
+        "upstream/ffmpeg/LICENSE.md",
+        "upstream/ffmpeg/COPYING.LGPLv2.1",
+        "upstream/ffmpeg/COPYING.LGPLv3",
+        "upstream/ffmpeg/COPYING.GPLv2",
+        "upstream/ffmpeg/COPYING.GPLv3"
+      ]
+    },
+    {
+      "id": "zlib",
+      "archives": [
+        "libzlib.a"
+      ],
+      "license": "Zlib",
+      "notices": [
+        "upstream/ext/zlib/LICENSE"
+      ]
+    },
+    {
+      "id": "libretro-inline",
+      "archives": [],
+      "license": "MIT",
+      "notices": [
+        "upstream/libretro/libretro-common/include/libretro.h"
+      ]
+    },
+    {
+      "id": "jpge-inline",
+      "archives": [],
+      "license": "Public-domain / MIT per original source",
+      "notices": [
+        "upstream/ext/jpge/jpgd.cpp",
+        "upstream/ext/jpge/jpge.cpp"
+      ]
+    },
+    {
+      "id": "stb-inline",
+      "archives": [],
+      "license": "MIT OR public-domain",
+      "notices": [
+        "upstream/ext/stb/stb_rect_pack.h"
+      ]
+    },
+    {
+      "id": "nanosvg-inline",
+      "archives": [],
+      "license": "Zlib",
+      "notices": [
+        "upstream/ext/nanosvg/LICENSE.txt"
+      ]
+    },
+    {
+      "id": "inconsolata",
+      "archives": [],
+      "license": "OFL-1.1",
+      "notices": [
+        "../psp-supplemental/inconsolata.txt"
+      ]
+    },
+    {
+      "id": "roboto-condensed",
+      "archives": [],
+      "license": "OFL-1.1 (confirmed in these five font files, not older Roboto Apache revisions)",
+      "notices": [
+        "../psp-supplemental/roboto.txt"
+      ]
+    },
+    {
+      "id": "debugger",
+      "archives": [],
+      "license": "Original bundled React/object-assign/classnames/jQuery MIT notices; PPSSPP debugger provenance",
+      "notices": [
+        "upstream/assets/debugger/static/js/main.fe87e942.js.LICENSE.txt"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "PPSSPP/Inconsolata-Regular.ttf",
+      "component": "inconsolata",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/Roboto_Condensed-Bold.ttf",
+      "component": "roboto-condensed",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/Roboto_Condensed-Italic.ttf",
+      "component": "roboto-condensed",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/Roboto_Condensed-Light.ttf",
+      "component": "roboto-condensed",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/Roboto_Condensed-Regular.ttf",
+      "component": "roboto-condensed",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/adhoc-servers.json",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/asciifont_atlas.meta",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/asciifont_atlas.zim",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/compat.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/compatvr.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/debugger/asset-manifest.json",
+      "component": "debugger",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/debugger/favicon.ico",
+      "component": "debugger",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/debugger/index.html",
+      "component": "debugger",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/debugger/manifest.json",
+      "component": "debugger",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/debugger/static/css/main.3eab8a01.css",
+      "component": "debugger",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/debugger/static/css/main.3eab8a01.css.map",
+      "component": "debugger",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/debugger/static/js/main.fe87e942.js",
+      "component": "debugger",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/debugger/static/js/main.fe87e942.js.LICENSE.txt",
+      "component": "debugger",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/debugger/static/js/main.fe87e942.js.map",
+      "component": "debugger",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/debugger/static/media/logo.94f885ce93dfb6d29a122402a15cccca.svg",
+      "component": "debugger",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/flash0/font/jpn0.pgf",
+      "component": "ppsspp",
+      "terms": "Replacement fonts from pinned PPSSPP assets, not a user firmware dump"
+    },
+    {
+      "path": "PPSSPP/flash0/font/kr0.pgf",
+      "component": "ppsspp",
+      "terms": "Replacement fonts from pinned PPSSPP assets, not a user firmware dump"
+    },
+    {
+      "path": "PPSSPP/flash0/font/ltn0.pgf",
+      "component": "ppsspp",
+      "terms": "Replacement fonts from pinned PPSSPP assets, not a user firmware dump"
+    },
+    {
+      "path": "PPSSPP/flash0/font/ltn1.pgf",
+      "component": "ppsspp",
+      "terms": "Replacement fonts from pinned PPSSPP assets, not a user firmware dump"
+    },
+    {
+      "path": "PPSSPP/flash0/font/ltn10.pgf",
+      "component": "ppsspp",
+      "terms": "Replacement fonts from pinned PPSSPP assets, not a user firmware dump"
+    },
+    {
+      "path": "PPSSPP/flash0/font/ltn11.pgf",
+      "component": "ppsspp",
+      "terms": "Replacement fonts from pinned PPSSPP assets, not a user firmware dump"
+    },
+    {
+      "path": "PPSSPP/flash0/font/ltn12.pgf",
+      "component": "ppsspp",
+      "terms": "Replacement fonts from pinned PPSSPP assets, not a user firmware dump"
+    },
+    {
+      "path": "PPSSPP/flash0/font/ltn13.pgf",
+      "component": "ppsspp",
+      "terms": "Replacement fonts from pinned PPSSPP assets, not a user firmware dump"
+    },
+    {
+      "path": "PPSSPP/flash0/font/ltn14.pgf",
+      "component": "ppsspp",
+      "terms": "Replacement fonts from pinned PPSSPP assets, not a user firmware dump"
+    },
+    {
+      "path": "PPSSPP/flash0/font/ltn15.pgf",
+      "component": "ppsspp",
+      "terms": "Replacement fonts from pinned PPSSPP assets, not a user firmware dump"
+    },
+    {
+      "path": "PPSSPP/flash0/font/ltn2.pgf",
+      "component": "ppsspp",
+      "terms": "Replacement fonts from pinned PPSSPP assets, not a user firmware dump"
+    },
+    {
+      "path": "PPSSPP/flash0/font/ltn3.pgf",
+      "component": "ppsspp",
+      "terms": "Replacement fonts from pinned PPSSPP assets, not a user firmware dump"
+    },
+    {
+      "path": "PPSSPP/flash0/font/ltn4.pgf",
+      "component": "ppsspp",
+      "terms": "Replacement fonts from pinned PPSSPP assets, not a user firmware dump"
+    },
+    {
+      "path": "PPSSPP/flash0/font/ltn5.pgf",
+      "component": "ppsspp",
+      "terms": "Replacement fonts from pinned PPSSPP assets, not a user firmware dump"
+    },
+    {
+      "path": "PPSSPP/flash0/font/ltn6.pgf",
+      "component": "ppsspp",
+      "terms": "Replacement fonts from pinned PPSSPP assets, not a user firmware dump"
+    },
+    {
+      "path": "PPSSPP/flash0/font/ltn7.pgf",
+      "component": "ppsspp",
+      "terms": "Replacement fonts from pinned PPSSPP assets, not a user firmware dump"
+    },
+    {
+      "path": "PPSSPP/flash0/font/ltn8.pgf",
+      "component": "ppsspp",
+      "terms": "Replacement fonts from pinned PPSSPP assets, not a user firmware dump"
+    },
+    {
+      "path": "PPSSPP/flash0/font/ltn9.pgf",
+      "component": "ppsspp",
+      "terms": "Replacement fonts from pinned PPSSPP assets, not a user firmware dump"
+    },
+    {
+      "path": "PPSSPP/font_atlas.meta",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/font_atlas.zim",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/gamecontrollerdb.txt",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/infra-dns.json",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/knownfuncs.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/README.md",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/ar_AE.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/az_AZ.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/be_BY.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/bg_BG.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/ca_ES.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/cz_CZ.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/da_DK.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/de_DE.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/dr_ID.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/en_US.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/es_ES.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/es_LA.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/fa_IR.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/fi_FI.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/fr_FR.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/gl_ES.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/gr_EL.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/he_IL.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/he_IL_invert.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/hr_HR.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/hu_HU.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/id_ID.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/it_IT.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/ja_JP.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/jv_ID.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/ko_KR.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/ku_SO.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/lo_LA.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/lt-LT.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/ms_MY.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/nl_NL.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/no_NO.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/pl_PL.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/pt_BR.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/pt_PT.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/ro_RO.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/ru_RU.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/sv_SE.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/tg_PH.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/th_TH.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/tr_TR.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/uk_UA.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/vi_VN.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/zh_CN.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/lang/zh_TW.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/langregion.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/mime/ppsspp.xml",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/ppge_atlas.meta",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/ppge_atlas.zim",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/redump.csv",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/sfx_achievement_unlocked.wav",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/sfx_back.wav",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/sfx_confirm.wav",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/sfx_leaderbord_submitted.wav",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/sfx_select.wav",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/sfx_toggle_off.wav",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/sfx_toggle_on.wav",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/shaders/4xhqglsl.fsh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/4xhqglsl.vsh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/5xBR-lv2.fsh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/5xBR.fsh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/5xBR.vsh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/GaussianDownscale.fsh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/aacolor.fsh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/aacolor.vsh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/bloom.fsh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/bloomnoblur.fsh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/cartoon.fsh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/cartoon.vsh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/colorcorrection.fsh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/crt.fsh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/defaultshaders.ini",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/fakereflections.fsh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/fsr_easu.fsh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/fsr_rcas.fsh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/fxaa.fsh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/fxaa.vsh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/natural.fsh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/natural.vsh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/naturalA.fsh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/naturalA.vsh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/persistence.fsh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/psp_color.fsh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/scanlines.fsh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/sharpen.fsh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/smiley.py",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/smiley_16x16_rgba.bin",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/stereo_red_blue.fsh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/stereo_sbs.fsh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/tex_2xbrz.csh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/tex_4xbrz.csh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/tex_mmpx.csh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/tex_mmpx_adv.csh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/tex_nnedi3_2x_single.csh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/tex_nnedi3_4x_single.csh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/tex_nnedi3_mp_cshift_2x.csh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/tex_nnedi3_mp_cshift_4x.csh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/tex_nnedi3_mp_nns16_pass1_buffer.csh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/tex_nnedi3_mp_nns16_pass1_image.csh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/tex_nnedi3_mp_nns16_pass2.csh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/tex_smiley_2x.csh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/tex_spline36_2x.csh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/tex_spline36_4x.csh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/upscale_bicubic.fsh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/upscale_bicubic.vsh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/upscale_sharp_bilinear.fsh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/upscale_sharp_bilinear.vsh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/upscale_spline36.fsh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/upscale_spline36.vsh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/videoAA.fsh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/shaders/vignette.fsh",
+      "component": "ppsspp",
+      "terms": "Original inline shader notices retained in the unchanged runtime file"
+    },
+    {
+      "path": "PPSSPP/themes/1995.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/themes/alpine.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/themes/defaultthemes.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/themes/slateforest.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/themes/strawberry.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/themes/vinewood.ini",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/ui_images/bg.png",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/ui_images/buttons.svg",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/ui_images/drop_shadow.png",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/ui_images/icon.png",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/ui_images/icon_gold.png",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/ui_images/images.svg",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/ui_images/psp_display.png",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/ui_images/retroachievements_logo.png",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/ui_images/stick.png",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/ui_images/stick_line.png",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/ui_images/svg_sources.txt",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/upload/index.html",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/vfpu/vfpu_asin_lut65536.dat",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/vfpu/vfpu_asin_lut_deltas.dat",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/vfpu/vfpu_asin_lut_indices.dat",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/vfpu/vfpu_exp2_lut.dat",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/vfpu/vfpu_exp2_lut65536.dat",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/vfpu/vfpu_log2_lut.dat",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/vfpu/vfpu_log2_lut65536.dat",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/vfpu/vfpu_log2_lut65536_quadratic.dat",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/vfpu/vfpu_rcp_lut.dat",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/vfpu/vfpu_rsqrt_lut.dat",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/vfpu/vfpu_sin_lut8192.dat",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/vfpu/vfpu_sin_lut_delta.dat",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/vfpu/vfpu_sin_lut_exceptions.dat",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/vfpu/vfpu_sin_lut_interval_delta.dat",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    },
+    {
+      "path": "PPSSPP/vfpu/vfpu_sqrt_lut.dat",
+      "component": "ppsspp",
+      "terms": "Pinned upstream asset provenance; no separate trademark endorsement"
+    }
+  ],
+  "supplemental_notices": [
+    {
+      "path": "app/src/main/assets/licenses/psp-supplemental/inconsolata.txt",
+      "sha256": "29bd0cfd0fb2a45f9b057c834a057724bae1f63b525a8ac83d3e7525706d9f80",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/inconsolata/OFL.txt"
+    },
+    {
+      "path": "app/src/main/assets/licenses/psp-supplemental/roboto.txt",
+      "sha256": "061402327a96aadb0bfb694a960ed289ecd38d383e396243831ab81feb109c41",
+      "source_url": "https://raw.githubusercontent.com/googlefonts/roboto-classic/main/OFL.txt"
+    },
+    {
+      "path": "app/src/main/assets/licenses/psp-supplemental/sfmt.txt",
+      "sha256": "9d6db9b6702bf80c926b36d61f6282bf48d0a9a8044db2bd31e524aa08ccac0f",
+      "source_url": "https://raw.githubusercontent.com/MersenneTwister-Lab/SFMT/master/LICENSE.txt"
+    }
+  ],
+  "sega": {
+    "pin": "190873a34c3f4d239cadf11c3ce87688bec24b40",
+    "inventory": "config/sega8bit-core.candidate.json",
+    "verification": "scripts/audit-sega8bit-artifacts.py",
+    "scope": "Gearsystem/libretro adapter; six pinned per-file inputs plus original GPL/LGPL/MIT notices; no desktop UI, BIOS or ROM"
+  }
+}

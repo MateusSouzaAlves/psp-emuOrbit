@@ -55,11 +55,15 @@
   "files": [
     {
       "path": "config/psp-core.proof.json",
-      "sha256": "fef1bcbe118d89edd0e3eab2b3e69e3eb5d6612f2a2bb3cfe4fee5b9bfda41c0"
+      "sha256": "a5ff2a790e257e2720b6d4e9cbb6c3688c685fbee82a82e00ac07921a6a8f306"
+    },
+    {
+      "path": "config/psp-distribution-inventory.json",
+      "sha256": "13db7649bc7c10f84a29119c3475a5cfae6d178345ee14e2104ef78342d2f685"
     },
     {
       "path": "scripts/psp-product/build_product.py",
-      "sha256": "1024a1872638cada201fd6942fa5ff504d48ab513f65a365dca3a1825809f783"
+      "sha256": "7eb3962dec0a55437c407613141e00b647d41860edaf2fc1ca3ce4ac85b4692e"
     },
     {
       "path": "scripts/psp-product/native_payload.py",
@@ -71,7 +75,11 @@
     },
     {
       "path": "scripts/psp-product/stage_notices.py",
-      "sha256": "5410b63790e2bbb9b9e08373fead5d5d65feff5f28bffe7a268aa969905b18e9"
+      "sha256": "804855afa2b87afcb68575a070277186a24640441b992dd071fb5bbbb51f8985"
+    },
+    {
+      "path": "scripts/psp-product/distribution_inventory.py",
+      "sha256": "b0ba96d2baf0514f747735c0bc2f99e65e1970c1c19c25c7f73606974aec15c8"
     },
     {
       "path": "scripts/psp-product/CMakeLists.txt",
@@ -102,6 +110,22 @@
       "sha256": "097fb8cb3311a59a51f4ee9664fc3f116f9e448591d314bd1fa3a1682a553f20"
     },
     {
+      "path": "app/src/main/assets/licenses/psp-supplemental/inconsolata.txt",
+      "sha256": "29bd0cfd0fb2a45f9b057c834a057724bae1f63b525a8ac83d3e7525706d9f80"
+    },
+    {
+      "path": "app/src/main/assets/licenses/psp-supplemental/roboto.txt",
+      "sha256": "061402327a96aadb0bfb694a960ed289ecd38d383e396243831ab81feb109c41"
+    },
+    {
+      "path": "app/src/main/assets/licenses/psp-supplemental/sfmt.txt",
+      "sha256": "9d6db9b6702bf80c926b36d61f6282bf48d0a9a8044db2bd31e524aa08ccac0f"
+    },
+    {
+      "path": "app/src/main/assets/licenses/apache-2.0.txt",
+      "sha256": "51b88fd3e9e24edcdce1dd145a4fca2dcd12911407f00b06dfa6ff600f9733c1"
+    },
+    {
       "path": "LICENSE.TXT",
       "sha256": "6c17a34fd9e0219be8bf9d979ce597b289e0695b1fb2b574fadf092b49316ce6"
     }
@@ -112,5 +136,10 @@
     "CMake 3.22.1",
     "Android NDK 29.0.14206865"
   ],
-  "limits": "No private frontend, product art, media, states, credentials or binaries. Fetch exact upstream recursively. Publication destination, corresponding-source parity and obligations of the combined app remain separate gates."
+  "limits": "No private frontend, product art, media, states, credentials or binaries. Fetch exact upstream recursively. Publication destination, corresponding-source parity and obligations of the combined app remain separate gates.",
+  "refresh_20261024": {
+    "state": "UPDATED_COMPONENT_SOURCE_NOT_COMBINED_APP_CERTIFICATE",
+    "snapshot": "component-source-2026-10-24",
+    "artifact_binding": "Not asserted for the entire current private worktree or an old Play version."
+  }
 }

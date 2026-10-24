@@ -1,0 +1,187 @@
+{
+  "schema": 1,
+  "snapshot": "component-source-2026-10-24",
+  "date": "2026-10-24",
+  "repository": "https://github.com/MateusSouzaAlves/psp-emuOrbit",
+  "scope": "Reviewed component-source refresh, not all sources of the combined closed application or a legal compliance certificate.",
+  "supersedes_public_commit": "b68f4d89608196547da08a826402b262876b8143",
+  "private_source_base_reference": "351b21363200a74b9ed8e6c46303f02b05ffff84",
+  "artifact_binding": {
+    "status": "NOT_ASSERTED_FOR_HISTORICAL_PLAY_OR_ENTIRE_CURRENT_PRIVATE_WORKTREE",
+    "reason": "Exact files and derivations recorded here; old snapshot tags remain immutable. Complete distributed artifact correspondence is a separate verification."
+  },
+  "verification": {
+    "checks": [
+      "PASS_BUILD_RECIPE_IMPORT_CLOSURE",
+      "PASS_UPSTREAM_57_ORIGINAL_NOTICE_STAGING",
+      "PASS_188_UPSTREAM_ASSET_STAGING_AND_SUPPLEMENTAL_NOTICE_HASHES"
+    ],
+    "full_app_build_or_gameplay": false,
+    "save_update_test": false,
+    "legal_combined_work_certificate": false
+  },
+  "upstream_gitlinks": [
+    {
+      "path": "core",
+      "commit": "fa50bb1976065c4f8b1b47af227d367fe9771555"
+    }
+  ],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "normalization": "text-crlf-to-lf",
+      "normalized_bytes": 103,
+      "sha256": "782c8069cf8bb5cb337c7990d10bb146829cbaff2ce58f3c5d75d6af5af6f442"
+    },
+    {
+      "path": ".gitignore",
+      "normalization": "text-crlf-to-lf",
+      "normalized_bytes": 258,
+      "sha256": "2d09fbb1e9f332b9c89ab1ba5168da2ec86595c99d324850d48fb1c8ac7396c8"
+    },
+    {
+      "path": ".gitmodules",
+      "normalization": "text-crlf-to-lf",
+      "normalized_bytes": 78,
+      "sha256": "2bd1a3a317b46ff8c89e346b09d478bb77ef058a7467a40b95680503d8863fde"
+    },
+    {
+      "path": "LICENSE.TXT",
+      "normalization": "text-crlf-to-lf",
+      "normalized_bytes": 19740,
+      "sha256": "ff265754cbb2e0d3b674f90a79ef5bbaa1f7f1075aec9f5e241524520e5049fa"
+    },
+    {
+      "path": "README.md",
+      "normalization": "text-crlf-to-lf",
+      "normalized_bytes": 4161,
+      "sha256": "2e5ebbcbb309d5a89ca63d58fc09d5e4fdfdae369cf3a8be448f1426b42eb9cf"
+    },
+    {
+      "path": "SOURCE_REFRESH.md",
+      "normalization": "text-crlf-to-lf",
+      "normalized_bytes": 986,
+      "sha256": "d71d661f674edd4cbbfc76a8a1fb35d0cc975cfdd9f4043aaf30431ed71ca8e9"
+    },
+    {
+      "path": "app/src/main/assets/licenses/apache-2.0.txt",
+      "normalization": "text-crlf-to-lf",
+      "normalized_bytes": 11358,
+      "sha256": "51b88fd3e9e24edcdce1dd145a4fca2dcd12911407f00b06dfa6ff600f9733c1"
+    },
+    {
+      "path": "app/src/main/assets/licenses/psp-supplemental/inconsolata.txt",
+      "normalization": "text-crlf-to-lf",
+      "normalized_bytes": 4350,
+      "sha256": "29bd0cfd0fb2a45f9b057c834a057724bae1f63b525a8ac83d3e7525706d9f80"
+    },
+    {
+      "path": "app/src/main/assets/licenses/psp-supplemental/roboto.txt",
+      "normalization": "text-crlf-to-lf",
+      "normalized_bytes": 4394,
+      "sha256": "061402327a96aadb0bfb694a960ed289ecd38d383e396243831ab81feb109c41"
+    },
+    {
+      "path": "app/src/main/assets/licenses/psp-supplemental/sfmt.txt",
+      "normalization": "text-crlf-to-lf",
+      "normalized_bytes": 1706,
+      "sha256": "9d6db9b6702bf80c926b36d61f6282bf48d0a9a8044db2bd31e524aa08ccac0f"
+    },
+    {
+      "path": "app/src/main/cpp/psp/psp_jni.cpp",
+      "normalization": "text-crlf-to-lf",
+      "normalized_bytes": 8331,
+      "sha256": "fdda91cd187989ed25423acdd40537b1e37ab891b0f89cfc8142f3fb978f4025"
+    },
+    {
+      "path": "app/src/main/cpp/psp/psp_session.cpp",
+      "normalization": "text-crlf-to-lf",
+      "normalized_bytes": 30550,
+      "sha256": "877ddb787fdf75c68d667fd6fe24ab721b30eeeb43719a285d479c8a742585e2"
+    },
+    {
+      "path": "app/src/main/cpp/psp/psp_session.h",
+      "normalization": "text-crlf-to-lf",
+      "normalized_bytes": 1481,
+      "sha256": "4f859ad6b49ec92ac6bbb7fd168985145ccb1edf12be21ae62503cb25df156e2"
+    },
+    {
+      "path": "app/src/main/java/com/mateussouza/emuorbit/advance/emulator/psp/PspNativeBridge.java",
+      "normalization": "text-crlf-to-lf",
+      "normalized_bytes": 1296,
+      "sha256": "097fb8cb3311a59a51f4ee9664fc3f116f9e448591d314bd1fa3a1682a553f20"
+    },
+    {
+      "path": "config/psp-core.proof.json",
+      "normalization": "text-crlf-to-lf",
+      "normalized_bytes": 356,
+      "sha256": "3e5e44bb7d5be154c87748af30ef72ae657679b4b35e6fb4d1d1870fe7862518"
+    },
+    {
+      "path": "config/psp-distribution-inventory.json",
+      "normalization": "text-crlf-to-lf",
+      "normalized_bytes": 42525,
+      "sha256": "1efed66da4bea5af82bb998b3e2e1129003db3cf57b3d0dd0b775e23ba14e54a"
+    },
+    {
+      "path": "scripts/psp-product/CMakeLists.txt",
+      "normalization": "text-crlf-to-lf",
+      "normalized_bytes": 1086,
+      "sha256": "07e66e5f889679ead23d5e3a679318d74530c36b3f197ab10967710ce68ac681"
+    },
+    {
+      "path": "scripts/psp-product/build_product.py",
+      "normalization": "text-crlf-to-lf",
+      "normalized_bytes": 10510,
+      "sha256": "7eb3962dec0a55437c407613141e00b647d41860edaf2fc1ca3ce4ac85b4692e"
+    },
+    {
+      "path": "scripts/psp-product/core_gl_compat.cmake",
+      "normalization": "text-crlf-to-lf",
+      "normalized_bytes": 1706,
+      "sha256": "f8e0a685ed5684be739f5c8b2fd17aa00560e27aebdcc8593abf5d043432a5b3"
+    },
+    {
+      "path": "scripts/psp-product/core_gl_compat.py",
+      "normalization": "text-crlf-to-lf",
+      "normalized_bytes": 2590,
+      "sha256": "517aa8cd5a2f4adcc7dc325d5349d88461b915e717733cc186634e9d3b4e2ee9"
+    },
+    {
+      "path": "scripts/psp-product/distribution_inventory.py",
+      "normalization": "text-crlf-to-lf",
+      "normalized_bytes": 4313,
+      "sha256": "b0ba96d2baf0514f747735c0bc2f99e65e1970c1c19c25c7f73606974aec15c8"
+    },
+    {
+      "path": "scripts/psp-product/native_payload.py",
+      "normalization": "text-crlf-to-lf",
+      "normalized_bytes": 1978,
+      "sha256": "455680e8f92e8422522a09310d4c5caf12fac16638f2242ea754d09d75b7fed7"
+    },
+    {
+      "path": "scripts/psp-product/stage_assets.py",
+      "normalization": "text-crlf-to-lf",
+      "normalized_bytes": 5101,
+      "sha256": "c02da778021fb2260cc1ccf362b2e83b74a7d53805136ae5bb1ba2e19d25cc54"
+    },
+    {
+      "path": "scripts/psp-product/stage_notices.py",
+      "normalization": "text-crlf-to-lf",
+      "normalized_bytes": 9025,
+      "sha256": "804855afa2b87afcb68575a070277186a24640441b992dd071fb5bbbb51f8985"
+    },
+    {
+      "path": "scripts/verify-source-snapshot.py",
+      "normalization": "text-crlf-to-lf",
+      "normalized_bytes": 3431,
+      "sha256": "854b409cd620c16ef630e8aa22d43fc8cdfa37bded9d28c8c68fd17dba4e9c4b"
+    },
+    {
+      "path": "source-package.json",
+      "normalization": "text-crlf-to-lf",
+      "normalized_bytes": 6866,
+      "sha256": "822b294c0ff9b29c52b74685aa59e967ddb30637fbe36a31a02097835188a3bb"
+    }
+  ]
+}
